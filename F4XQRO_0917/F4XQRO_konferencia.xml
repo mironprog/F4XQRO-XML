@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+    <cim>Konferencia 2024</cim>
+    <datum>2024-09-25</datum>
+    <helyszin>Budapest, Magyarország</helyszin>
+    
+    <eloadok>
+        <eload>
+            <nev>Dr. Kovács Péter</nev>
+            <lakcim>Budapest, Fő utca 12.</lakcim>
+            <adoszam>12345678</adoszam>
+        </eload>
+        <eload>
+            <nev>Dr. Nagy Anna</nev>
+            <lakcim>Budapest, Kossuth tér 8.</lakcim>
+            <adoszam>87654321</adoszam>
+        </eload>
+    </eloadok>
+
+    <hallgatok>
+        <hallgato>
+            <nev>Kiss József</nev>
+            <lakcim>Budapest, Deák tér 1.</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Szalai Mária</nev>
+            <lakcim>Budapest, Andrássy út 10.</lakcim>
+        </hallgato>
+    </hallgatok>
+</konferencia>
