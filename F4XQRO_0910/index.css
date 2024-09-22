@@ -1,0 +1,40 @@
+body {
+    
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10%;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+img {
+    margin-top: 30px;
+    width: 300px;
+    height: auto;
+}
+
+#intro {
+    
+    color:white;
+    margin-left: 10px;
+    text-align: left;
+}
+
+#db {
+    float: right;
+    margin-top: -300px;
+    margin-right: 100px;;
+}
