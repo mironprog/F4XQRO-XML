@@ -3,6 +3,7 @@
 <!ELEMENT BojanMiron_orarend (ora+)>
 <!ELEMENT ora (targy?, idopont?, helyszin?, oktato?, szak?)>
 <!ELEMENT idopont (nap+,tol?,ig?)>
+<!ELEMENT  targy(#PCDATA)>
 <!ELEMENT  nap(#PCDATA)>
 <!ELEMENT  tol(#PCDATA)>
 <!ELEMENT  ig(#PCDATA)>

@@ -1,0 +1,19 @@
+<!DOCTYPE F4XQRO_kurzusfelvetel [
+<!ELEMENT F4XQRO_kurzusfelvetel (hallgató?, kurzosok*)>
+<!ELEMENT hallgató (hnev+, szulev?, szak?)>
+<!ELEMENT kurzosok(kurzusnev+, kredit+, hely*, idopont*, oktato*)>
+<!ELEMENT  hnev(#PCDATA)>
+<!ELEMENT  szulev(#PCDATA)>
+<!ELEMENT  szak(#PCDATA)>
+<!ELEMENT  kurzusnev(#PCDATA)>
+<!ELEMENT  kredit(#PCDATA)>
+<!ELEMENT  hely(#PCDATA)>
+<!ELEMENT  idopont(#PCDATA)>
+<!ELEMENT  oktato(#PCDATA)>
+
+<!ATTLIST F4XQRO_kurzusfelvetel tanev CDATA #REQUIRED>
+<!ATTLIST F4XQRO_kurzusfelvetel egyetem CDATA #IMPLIED>
+<!ATTLIST kurzosok id CDATA #REQUIRED>
+<!ATTLIST kurzusok jovahagyas CDATA #IMPLIED>
+<!ATTLIST kurzusok nyelv CDATA #IMPLIED>
+]>
