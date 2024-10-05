@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<konyvek>
+    <konyv isbn="0836216472">
+        <cim>DogWorld</cim>
+        <szerzo>Charles M. Schulcz</szerzo>
+        <szereplo>
+            <nev>Snoopy</nev>
+            <baratja>Patty</baratja>
+            <szuletett>2010-10-04</szuletett>
+            <jellemzés>extrovertált beagle</jellemzés>
+        </szereplo>
+
+        <szereplo>
+            <nev>Patty</nev>
+            <szuletett>2011-08-22</szuletett>
+            <jellemzés>vakmerő, leány</jellemzés>
+        </szereplo>
+    </konyv>
+</konyvek>

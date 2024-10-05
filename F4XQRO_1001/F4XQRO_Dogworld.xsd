@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="konyvek" type="xs:string"/>
+        <xs:complexType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/>
+                <xs:maxInclusive value="99999999"/>
+            </xs:restriction>
+        </xs:complexType>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="konyv" type="xs:string"/>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="cim" type="xs:string"/>
+                            <xs:element name="szerzo" type="xs:string"/>
+                            <xs:element name="szereplo" type="xs:string"/>
+                                <xs:simpleType>
+                                    <xs:sequence>
+                                        <xs:element name="nev" type="xs:string"/>
+                                        <xs:element name="baratja" type="xs:string"/>
+                                        <xs:element name="szuletett" type="xs:date"/>
+                                        <xs:element name="jellemzés" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:simpleType>
+                        </xs:sequence>
+                    </xs:complexType>
+            </xs:sequence>
+        </xs:complexType>
+</xs:schema>
