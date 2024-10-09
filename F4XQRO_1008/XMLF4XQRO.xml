@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vendeglatas>
+<!--Ettermek-->
+    <etterem ekod="e1">
+        <nev>Trofea</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Visegrádi</utca>
+            <házszám>13</házszám>
+        </cim>
+        <csillag>4</csillag>
+    </etterem>
+
+    <etterem ekod="e2">
+        <nev>Gundel</nev>
+        <cim>
+            <varos>Budapest</varos>
+            <utca>Gundel Károly</utca>
+            <házszám>14</házszám>
+        </cim>
+        <csillag>4</csillag>
+    </etterem>
+
+<!-- Foszakacsok-->
+    <foszakacs fkod="f1" ekod="e1">
+        <nev>Kovács István</nev>
+        <eletkor>43</eletkor>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Le Cordon Bleu</vegzettseg>
+    </foszakacs>
+
+    <foszakacs fkod="f2" ekod="e2">
+        <nev>Havas Péter</nev>
+        <eletkor>34</eletkor>
+        <vegzettseg>Szakközépiskola</vegzettseg>
+        <vegzettseg>Le Cordon Bleu</vegzettseg>
+        <vegzettseg>Institut Paul Bocuse</vegzettseg>
+    </foszakacs>
+
+ <!-- Szakacsok-->
+    <szakacs szkod="sz1">
+        <nev>Bárki Áron</nev>
+        <reszleg>konyha</reszleg>
+        <vegzettseg>Gimnázium</vegzettseg>
+        <vegzettseg>Le Cordon Bleu</vegzettseg>
+        <vegzettseg>Institut Paul Bocuse</vegzettseg>
+    </szakacs>
+
+    <szakacs szkod="sz2">
+        <nev>Szabó Péter</nev>
+        <reszleg>konyha</reszleg>
+        <vegzettseg>Gimnázium</vegzettseg>
+        <vegzettseg>Érettségi</vegzettseg>
+        <vegzettseg>Institut Paul Bocuse</vegzettseg>
+    </szakacs>
+
+<!-- Gyakornok-->
+    <gyakornok gykod="gy1">
+        <nev>Nagy Ferenc</nev>
+        <gyakorlat>
+            <kezdete>Május</kezdete>
+            <Idotartam>5</Idotartam>
+        </gyakorlat>
+    </gyakornok>
+
+    <gyakornok gykod="gy1">
+        <nev>Tóth Máté</nev>
+        <gyakorlat>
+            <kezdete>December</kezdete>
+            <Idotartam>6</Idotartam>
+        </gyakorlat>
+    </gyakornok>
+
+<!-- Vendégek-->
+    <vendeg vkod="v1">
+        <nev>Kovács Béla</nev>
+        <eletkor>20</eletkor>
+        <cim>
+            <varos>Eger</varos>
+            <utca>Fő út</utca>
+            <házszám>4</házszám>
+        </cim>
+    </vendeg>
+
+    <vendeg vkod="v2">
+        <nev>Szabó Lajos</nev>
+        <eletkor>34</eletkor>
+        <cim>
+            <varos>Miskolc</varos>
+            <utca>Alkotmány</utca>
+            <házszám>34</házszám>
+        </cim>
+    </vendeg>
+
+<!-- Rendelések-->
+    <rendelés>
+        <osszeg>2500</osszeg>
+        <etel>Gyümölcs Leves</etel>
+    </rendelés>
+
+    <rendelés>
+        <osszeg>2790</osszeg>
+        <etel>Párolt csirkemell</etel>
+    </rendelés>
+</vendeglatas>
