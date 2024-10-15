@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <F4XQRO_kurzusfelvetel tanev="2024/2025/I" egyetem="ME">
-    <hallgato>
+    <hallgato id="F4XQRO">
         <hnev>Boján Miron</hnev>
         <szulev>2000</szulev>
         <szak evf="3">Programtervező informatikus</szak>
