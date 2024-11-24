@@ -1,0 +1,13 @@
+[
+    {
+        "id": 1,
+        "tipus": "Előadás",
+        "targy": "Adatkezelés XML-ben",
+        "nap": "Kedd",
+        "tol": 11,
+        "ig": 12,
+        "helyszín": "A13 terem",
+        "oktató": "Dr. Bednarik László",
+        "szak": "Programtervező informatikus"
+    }
+]
