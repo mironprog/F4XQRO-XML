@@ -6,7 +6,7 @@ import javax.xml.transform.stream.StreamResult;
 import javax.xml.xpath.*;
 import java.io.File;
 
-public class xPathModifyCMU4ZN {
+public class xPathModifyF4XQRO {
     public static void main(String[] args) {
         try {
             File inputFile = new File("F4XQRO_1119/xpathf4xqro1119/orarendF4XQRO.xml");
@@ -20,7 +20,7 @@ public class xPathModifyCMU4ZN {
             // Modify 1: "szak" nevének megváltoztatása 
             Node szakNode = (Node) xPath.compile("/orarend/ora[1]/szak").evaluate(doc, XPathConstants.NODE);
             if (szakNode != null) {
-                szakNode.setTextContent("Mesterséges Intelligencia és Programozás");
+                szakNode.setTextContent("Mesterséges Intelligencia és Alkalmazása");
             }
 
             // Modify 2: "targy" attribútomhoz monogram hozzáadás
