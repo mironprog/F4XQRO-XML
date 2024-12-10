@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<meheszet>
+<!--Kaptárak-->
+    <kaptar kapkod = "kap1">
+        <homerseklet>32</homerseklet>
+        <lokacio>
+            <varos>Győr</varos>
+            <utca>Szondi</utca>
+            <hazszam>5</hazszam>
+        </lokacio>
+        <keretszam>16</keretszam>
+        <keretszam>24</keretszam>
+    </kaptar>
+    
+    <kaptar kapkod = "kap2">
+        <homerseklet>32</homerseklet>
+        <lokacio>
+            <varos>Sopron</varos>
+            <utca>Kossuth</utca>
+            <hazszam>15</hazszam>
+        </lokacio>
+        <keretszam>8</keretszam>
+        <keretszam>16</keretszam>
+    </kaptar>
+
+    <kaptar kapkod = "kap3">
+        <homerseklet>36</homerseklet>
+        <lokacio>
+            <varos>Szeged</varos>
+            <utca>Petőfi</utca>
+            <hazszam>46</hazszam>
+        </lokacio>
+        <keretszam>32</keretszam>
+    </kaptar>
+
+    <!-- Királynők-->
+    <kiralyno Kkod = "ki1">
+        <nev>ZümZüm</nev>
+        <eletkor>1</eletkor>
+        <peterakasdatum>
+            <honap>Május</honap>
+            <nap>1</nap>
+        </peterakasdatum>
+    </kiralyno>
+
+    <kiralyno Kkod = "ki2">
+        <nev>Aranyszárny</nev>
+        <eletkor>3</eletkor>
+        <peterakasdatum>
+            <honap>Június</honap>
+            <nap>3</nap>
+        </peterakasdatum>
+    </kiralyno>
+
+    <kiralyno Kkod = "ki3">
+        <nev>Bíborka</nev>
+        <eletkor>3</eletkor>
+        <peterakasdatum>
+            <honap>Április</honap>
+            <nap>23</nap>
+        </peterakasdatum>
+    </kiralyno>
+
+    <!-- Dolgozók-->
+    <dolgozo Dkod = "do1">
+        <nev>Virágszirom Vilmos</nev>
+        <kedvenccirag>Napraforgó</kedvenccirag>
+        <meret>
+            <testhossz>4</testhossz>
+            <suly>6</suly>
+        </meret>
+    </dolgozo>
+
+    <dolgozo Dkod = "do2">
+        <nev>Sejtépítő Sándor</nev>
+        <kedvenccirag>Akác</kedvenccirag>
+        <meret>
+            <testhossz>5</testhossz>
+            <suly>8</suly>
+        </meret>
+    </dolgozo>
+
+    <dolgozo Dkod = "do3">
+        <nev>Szorgos Szilárd</nev>
+        <kedvenccirag>Repce</kedvenccirag>
+        <meret>
+            <testhossz>7</testhossz>
+            <suly>4</suly>
+        </meret>
+    </dolgozo>
+
+    <!-- Herék-->
+    <here Hkod="he1">
+        <nev>Pollen Péter</nev>
+        <eletkor>2</eletkor>
+        <szarnysebesseg>11000/s</szarnysebesseg>
+    </here>
+
+    <here Hkod="he2">
+        <nev>Rovar Róbert</nev>
+        <eletkor>1</eletkor>
+        <szarnysebesseg>11400/s</szarnysebesseg>
+    </here>
+
+    <here Hkod="he2">
+        <nev>Gyűjtögető György</nev>
+        <eletkor>3</eletkor>
+        <szarnysebesseg>10000/s</szarnysebesseg>
+    </here>
+
+    <!-- Mézkészítés-->
+    <mezkeszites kapkod = "kap1" Dkod = "do1">
+        <virag>Akác</virag>
+        <Mennyiség>1</Mennyiség>
+    </mezkeszites>
+
+    <mezkeszites kapkod = "kap2" Dkod = "do2">
+        <virag>Napraforgó</virag>
+        <Mennyiség>5</Mennyiség>
+    </mezkeszites>
+
+    <mezkeszites kapkod = "kap3" Dkod = "do3">
+        <virag>Levendula</virag>
+        <Mennyiség>3</Mennyiség>
+    </mezkeszites>
+</meheszet>
